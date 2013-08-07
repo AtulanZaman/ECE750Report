@@ -1,9 +1,9 @@
 \contentsline {section}{\numberline {I}Introduction}{1}
 \contentsline {section}{\numberline {II}Example}{2}
 \contentsline {section}{\numberline {III}Overview of analysis}{3}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-A}}DataFlowAnalysis}{3}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-A}}Dataflow Analysis}{3}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-B}}Object Representatives}{3}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-C}}EscapeAnalysis}{4}
 \contentsline {section}{\numberline {IV}Implementation and Evaluation}{5}
 \contentsline {section}{\numberline {V}Future Work}{5}
-\contentsline {section}{\numberline {VI}Conclusion and Project Experience}{5}
+\contentsline {section}{\numberline {VI}Conclusion and Project Experience}{6}

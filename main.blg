@@ -3,51 +3,49 @@ The top-level auxiliary file: main.aux
 The style file: IEEEtran.bst
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: bib/report750.bib
-Warning--I didn't find a database entry for "ref:Kotzmann"
 -- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 10 entries,
+You've used 11 entries,
             4039 wiz_defined-function locations,
-            890 strings with 9880 characters,
-and the built_in function-call counts, 9151 in all, are:
-= -- 757
-> -- 193
+            893 strings with 9948 characters,
+and the built_in function-call counts, 9496 in all, are:
+= -- 785
+> -- 197
 < -- 78
-+ -- 105
-- -- 30
-* -- 487
-:= -- 1404
-add.period$ -- 26
-call.type$ -- 10
-change.case$ -- 10
++ -- 107
+- -- 31
+* -- 496
+:= -- 1471
+add.period$ -- 28
+call.type$ -- 11
+change.case$ -- 11
 chr.to.int$ -- 189
-cite$ -- 10
-duplicate$ -- 623
-empty$ -- 733
-format.name$ -- 40
-if$ -- 2088
+cite$ -- 11
+duplicate$ -- 650
+empty$ -- 767
+format.name$ -- 41
+if$ -- 2161
 int.to.chr$ -- 0
-int.to.str$ -- 10
-missing$ -- 111
-newline$ -- 73
-num.names$ -- 10
-pop$ -- 245
+int.to.str$ -- 11
+missing$ -- 118
+newline$ -- 78
+num.names$ -- 11
+pop$ -- 267
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 690
+skip$ -- 718
 stack$ -- 0
 substring$ -- 451
-swap$ -- 535
+swap$ -- 552
 text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 10
+type$ -- 11
 warning$ -- 0
-while$ -- 46
-width$ -- 12
-write$ -- 152
-(There was 1 warning)
+while$ -- 47
+width$ -- 13
+write$ -- 162

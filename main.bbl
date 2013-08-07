@@ -65,6 +65,16 @@ F.~Vivien and M.~Rinard, ``Incrementalized pointer and escape analysis,''
   Available: \url{http://doi.acm.org/10.1145/381694.378804}
 \BIBentrySTDinterwordspacing
 
+\bibitem{ref:globalescape}
+\BIBentryALTinterwordspacing
+T.~Kotzmann and H.~M\"{o}ssenb\"{o}ck, ``Escape analysis in the context of
+  dynamic compilation and deoptimization,'' in \emph{Proceedings of the 1st
+  ACM/USENIX international conference on Virtual execution environments}, ser.
+  VEE '05.\hskip 1em plus 0.5em minus 0.4em\relax New York, NY, USA: ACM, 2005,
+  pp. 111--120. [Online]. Available:
+  \url{http://doi.acm.org/10.1145/1064979.1064996}
+\BIBentrySTDinterwordspacing
+
 \bibitem{ref:or}
 \BIBentryALTinterwordspacing
 E.~Bodden, P.~Lam, and L.~Hendren, ``Object representatives: a uniform
@@ -93,21 +103,17 @@ C.~Unkel and M.~S. Lam, ``Automatic inference of stationary fields: a
   \url{http://doi.acm.org/10.1145/1328897.1328463}
 \BIBentrySTDinterwordspacing
 
-\bibitem{ref:globalescape}
-\BIBentryALTinterwordspacing
-T.~Kotzmann and H.~M\"{o}ssenb\"{o}ck, ``Escape analysis in the context of
-  dynamic compilation and deoptimization,'' in \emph{Proceedings of the 1st
-  ACM/USENIX international conference on Virtual execution environments}, ser.
-  VEE '05.\hskip 1em plus 0.5em minus 0.4em\relax New York, NY, USA: ACM, 2005,
-  pp. 111--120. [Online]. Available:
-  \url{http://doi.acm.org/10.1145/1064979.1064996}
-\BIBentrySTDinterwordspacing
-
 \bibitem{ref:sootsurvival}
 \BIBentryALTinterwordspacing
 A.~Einarsson and J.~D. Nielsen. (2008) A survivor's guide to java program
   analysis with soot. [Online]. Available:
   \url{http://www.brics.dk/SootGuide/sootsurvivorsguide.pdf}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ref:tutorial}
+\BIBentryALTinterwordspacing
+E.~Bodden. (2013) An introduction to soot 2.2.5. [Online]. Available:
+  \url{http://www.bodden.de/tools/soot-225/}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}
