@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.8.9)  7 AUG 2013 01:52
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.8.9)  7 AUG 2013 12:09
 entering extended mode
  %&-line parsing enabled.
 **main.tex
@@ -337,7 +337,12 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 3.
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+)
+
+Package natbib Warning: Citation `ref:Kotzmann' on page 1 undefined on input li
+ne 5.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]) (./example.tex
@@ -412,15 +417,25 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ect.pdf> <./img/client_transformed.pdf>]) (./analysis.tex [3 <./img/client_esca
 pe.pdf>]
 
-Package natbib Warning: Citation `ref:kotzmann' on page 4 undefined on input li
-ne 46.
+pdfTeX warning: pdflatex (file ./img/fieldassignmentcod.pdf): PDF inclusion: fo
+und PDF version <1.5>, but at most version <1.4> allowed
+<img/fieldassignmentcod.pdf, id=42, 442.45299pt x 131.692pt>
+File: img/fieldassignmentcod.pdf Graphic file (type pdf)
 
+<use img/fieldassignmentcod.pdf>
 
-Package natbib Warning: Citation `ref:kotzmann' on page 4 undefined on input li
-ne 49.
+pdfTeX warning: pdflatex (file ./img/fieldassignmentresult.pdf): PDF inclusion:
+ found PDF version <1.5>, but at most version <1.4> allowed
+<img/fieldassignmentresult.pdf, id=44, 296.307pt x 45.771pt>
+File: img/fieldassignmentresult.pdf Graphic file (type pdf)
 
-) (./implementation.tex) (./futurework.tex) (./conclusion.tex) (./main.bbl
-[4])
+<use img/fieldassignmentresult.pdf>
+Overfull \hbox (6.0pt too wide) in paragraph at lines 59--61
+[][]
+ []
+
+[4 <./img/fieldassignmentcod.pdf> <./img/fieldassignmentresult.pdf>])
+(./implementation.tex) (./futurework.tex) (./conclusion.tex) [5] (./main.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -435,26 +450,24 @@ Before submitting the final camera ready copy, remember to:
 
 Package natbib Warning: There were undefined citations.
 
-[5
-
-] (./main.aux) ) 
+[6] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 5507 strings out of 493848
- 82424 string characters out of 1152824
- 152083 words of memory out of 3000000
- 8721 multiletter control sequences out of 15000+50000
+ 5530 strings out of 493848
+ 82964 string characters out of 1152824
+ 156124 words of memory out of 3000000
+ 8742 multiletter control sequences out of 15000+50000
  35083 words of font info for 67 fonts, out of 3000000 for 9000
  717 hyphenation exceptions out of 8191
- 36i,8n,38p,1606b,395s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-tex
-live/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-texlive/fonts/type1/u
-rw/times/utmb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmbi8a.pfb
-></usr/share/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-t
-exlive/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (5 pages, 223430 bytes).
+ 36i,8n,38p,1859b,395s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/s
+hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-t
+exlive/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-texlive/fonts/type1
+/urw/times/utmb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmbi8a.p
+fb></usr/share/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf
+-texlive/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (6 pages, 252564 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
+ 81 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

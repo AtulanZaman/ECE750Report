@@ -420,7 +420,9 @@ University of Waterloo \\
 
 % make the title area
 \maketitle
-
+\pagestyle{headings}
+\setcounter{page}{1}
+\pagenumbering{arabic}
 
 \begin{abstract}
 Immutable objects are preferred in Object Oriented Programming because of their safety and simplicity. However declaring all objects and data structures as immutable often causes heavy performance overhead for software programs. This is especially true for compilers where the entire Abstract Syntax Tree has to be rebuilt everytime the tree needs to be mutated. Therefore the work of this project looks at using static analysis to detect cases where objects can be safely transformed to be mutable from being immutable without compromising functionality and security. The basis of the analysis is using \textit{Escape Analysis} to detect escaping objects using intra-procedural dataflow analysis and Object Representatives.

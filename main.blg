@@ -1,62 +1,53 @@
 This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: main.aux
-Case mismatch error between cite keys ref:kotzmann and ref:Kotzmann
----line 37 of file main.aux
- : \citation{ref:kotzmann
- :                       }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys ref:kotzmann and ref:Kotzmann
----line 38 of file main.aux
- : \citation{ref:kotzmann
- :                       }
-I'm skipping whatever remains of this command
 The style file: IEEEtran.bst
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: bib/report750.bib
+Warning--I didn't find a database entry for "ref:Kotzmann"
 -- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 9 entries,
+You've used 10 entries,
             4039 wiz_defined-function locations,
-            885 strings with 9707 characters,
-and the built_in function-call counts, 8757 in all, are:
-= -- 726
-> -- 184
+            890 strings with 9880 characters,
+and the built_in function-call counts, 9151 in all, are:
+= -- 757
+> -- 193
 < -- 78
-+ -- 101
-- -- 28
-* -- 474
-:= -- 1332
-add.period$ -- 24
-call.type$ -- 9
-change.case$ -- 9
++ -- 105
+- -- 30
+* -- 487
+:= -- 1404
+add.period$ -- 26
+call.type$ -- 10
+change.case$ -- 10
 chr.to.int$ -- 189
-cite$ -- 9
-duplicate$ -- 593
-empty$ -- 697
-format.name$ -- 37
-if$ -- 2004
+cite$ -- 10
+duplicate$ -- 623
+empty$ -- 733
+format.name$ -- 40
+if$ -- 2088
 int.to.chr$ -- 0
-int.to.str$ -- 9
-missing$ -- 103
-newline$ -- 68
-num.names$ -- 9
-pop$ -- 219
+int.to.str$ -- 10
+missing$ -- 111
+newline$ -- 73
+num.names$ -- 10
+pop$ -- 245
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 660
+skip$ -- 690
 stack$ -- 0
 substring$ -- 451
-swap$ -- 515
+swap$ -- 535
 text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 9
+type$ -- 10
 warning$ -- 0
-while$ -- 45
-width$ -- 10
-write$ -- 142
-(There were 2 error messages)
+while$ -- 46
+width$ -- 12
+write$ -- 152
+(There was 1 warning)

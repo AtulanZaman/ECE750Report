@@ -1,8 +1,13 @@
 \section{Future Work}
-Make interprocedural analysis. Run the  analysis on multiple programs and compare performance and other good stuff.
-%Right now it does intra
 %I want it to do interprocedural with call graph.
+Currently the analysis is strictly intra-procedural and returns the variables that are unsafe to transform within the scope of the methods inside the class. However, for the analysis to be scalable a inter-procedural analysis needs to take place prior to the intra-procedural analysis to generate a call graph for a certain object that is of interest, and then analyze the methods that define the call sites using the analysis defined in this project. This way, the user can test specific immutable objects whether it is safe to transform them to mutable and the interprocedural analysis will transitively analyse the calling methods of the object to make the inference.
+
 %It needs to do program transformation for call sites and the object mutator and constructor
+After the inference is made whether an object can be made mutable or not, certain program transformation needs to take place to make this change happen. Broadly are two abstraction in which the transformations will take place. One of them is the object itself, where the object attribute declarations need to be changed to mutable rather than immutable. Also in object, the mutator methods need to be change mutate the instance itself rather than returning a new instance of the object. The abstraction where the transformation needs to take place are the call sites of the respective object. The call site need to be transformed to reflect the changes that have been made to the object as a result of the analysis. For this to happen certain formal transformation rules need to be defined, and this in itself would have its own program analysis.
+
 %Metrics to compare.
-	%Run it against common java libraries and see %of objects that are immutable, and % of objects that can transformed to immutable
-	%Run it against performance intensive libraries and see the actual performance improvement
+After the interprocedural analysis and the transformation rules are finalized, the program analysis will finally be ready testing on production level code. In order to instrument the contribution and utility of this analysis there are two metrics that would be interesting to consider after it has been run through benchmark programs:
+\begin{enumerate}
+\item Finding what percentage of immutable object declarations actually qualify as ``safe to transform'' according to this analysis
+\item After the transformation, what is the performance and memory usage improvement for the subject programs.
+\end{enumerate}
